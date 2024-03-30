@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="sideNav" class="bg-black d-flex  flex-column justify-content-between"> 
+        <div class="py-5 px-3 overflow-hidden">
+            <div class=" animatedDiv  search"><a href="search.html">Search</a></div>
+            <div  class=" animatedDiv category"><a href="category.html">Categories</a></div>
+            <div  class=" animatedDiv area"><a href="area.html">Area</a></div>
+            <div  class=" animatedDiv ingredients"><a href="Ingredients.html">Ingredients</a></div>
+            <div  class=" animatedDiv contact"><a href="contactUs.html">Contact Us</a></div>
+        </div> 
+
+        <div class="px-4 text-white">
+            <div class="icons">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter ms-1"></i>
+                <i class="fa-solid fa-globe ms-1"></i>
+            </div>
+            <p>
+                Copyright Â© 2019 All Rights
+                Reserved.
+            </p>
+        </div>    
+    </div> 
+
+    <div id="open" class="whiteDiv vh-100  position-fixed d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+        <img class="logo text-center" src="images/logo.png" alt="" srcset="">
+        <i id="xmark" class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+        <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes mt-2"></i>
+        </div>
+    </div>
+
+
+
+
+    <div class="vh-100 d-flex align-items-center text-center">
+    <div class="w-50 m-auto">
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <input id="name" type="text" class="form-control input"  placeholder="enter your name">
+                <div id="nameErorr" class="alert  alert-danger error">Special characters and numbers not allowed</div>
+            </div> 
+            <div class="col-md-6 p-3">
+                <input id="email" type="text" class="form-control input" placeholder="enter your email">
+                <div id="emailError" class="alert alert-danger error">Email not valid *exemple@yyy.zzz</div>
+            </div>
+            <div class="col-md-6 p-3">
+                <input id="phone" type="text" class="form-control input" placeholder="enter your phone">
+                <div id="phoneError" class="alert alert-danger error">Enter valid Phone Number</div>
+            </div>
+            <div class="col-md-6 p-3">
+                <input id="age" type="text" class="form-control input" placeholder="enter your age">
+                <div id="ageError" class="alert alert-danger error">Enter valid age</div>
+            </div>
+            <div class="col-md-6 p-3">
+                <input id="pass" type="text" class="form-control input " placeholder="enter your passowrd">
+                <div id="passError" class="alert alert-danger error">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+            </div>
+            <div  class="col-md-6 p-3">
+                <input id="repass" type="text" class="form-control input" placeholder="Repassword">
+                <div id="repassError" class="alert alert-danger error">Enter valid repassword</div>
+            </div>
+        </div>
+        <button disabled  id="submitButton" class="btn btn-outline-danger ">submit</button>
+
+    </div>
+    </div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+
+</html>
